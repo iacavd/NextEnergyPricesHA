@@ -1,0 +1,7 @@
+{
+  "name": "NextEnergy Market Prices",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "NL",
+  "homeassistant": "2024.0.0"
+}

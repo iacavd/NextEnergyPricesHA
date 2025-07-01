@@ -1,0 +1,10 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "NextEnergy Credentials",
+        "description": "Enter your NextEnergy username and password."
+      }
+    }
+  }
+}
