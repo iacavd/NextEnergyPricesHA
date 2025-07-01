@@ -5,6 +5,6 @@
   "documentation": "https://github.com/yourusername/nextenergy",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@iacavd"],
+  "codeowners": ["@yourusername"],
   "config_flow": true
 }

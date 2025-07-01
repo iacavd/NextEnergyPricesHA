@@ -1,5 +1,4 @@
 from homeassistant import config_entries
-from homeassistant.core import callback
 import voluptuous as vol
 
 from .const import DOMAIN
@@ -10,7 +9,7 @@ class NextEnergyConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     async def async_step_user(self, user_input=None):
         errors = {}
         if user_input is not None:
-            # Try credentials
+            # Test credentials here if desired
             return self.async_create_entry(title="NextEnergy", data=user_input)
 
         # Try to fetch from secrets.yaml
